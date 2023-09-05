@@ -29,7 +29,7 @@ public class Worker extends Person{
 
         return "Regular Pay: " + regularHoursWorked + " hours, totalling $" + (regularHoursWorked * hourlyPayRate) +
                 "\nOvertime Pay: " + overtimedHoursWorked + " hours, totalling $" + (overtimedHoursWorked * hourlyPayRate * 1.5) +
-                "\nCombined Total Pay: " + hoursWorked + " hours, totalling $" + weeklyPay;
+                "\nTotal Weekly Pay: " + hoursWorked + " hours, totalling $" + weeklyPay;
     }
 
     private double calculateRegularHours(double hoursWorked) {
