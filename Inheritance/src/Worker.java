@@ -6,6 +6,11 @@ public class Worker extends Person{
         this.hourlyPayRate = hourlyPayRate;
     }
 
+    public Worker(String ID, String firstName, String lastName, int YOB, double hourlyPayRate) {
+        super(ID, firstName, lastName, YOB);
+        this.hourlyPayRate = hourlyPayRate;
+    }
+
     public double getHourlyPayRate() {
         return hourlyPayRate;
     }

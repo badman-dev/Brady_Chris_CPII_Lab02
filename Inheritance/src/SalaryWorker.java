@@ -6,6 +6,11 @@ public class SalaryWorker extends Worker {
         this.annualSalary = annualSalary;
     }
 
+    public SalaryWorker(String ID, String firstName, String lastName, int YOB, double hourlyPayRate, double annualSalary) {
+        super(ID, firstName, lastName, YOB, hourlyPayRate);
+        this.annualSalary = annualSalary;
+    }
+
     public double getAnnualSalary() {
         return annualSalary;
     }
